@@ -1,7 +1,27 @@
 aid: thorin
 name: Thorin
-description: Thorin is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Thorin is an applied-AI startup incubated and backed by 8VC (Joe Lonsdale),
+  building a workbench for company agents. Its product at app.thorin.com pairs a personal
+  agent that acts as your delegate with project agents that own shared team workflows,
+  connecting business systems (Slack, Google Workspace, Notion, Gong, Salesforce, Affinity,
+  and MCP) and organizing company context into feeds that power reusable skills and
+  scheduled automations. Thorin observes work across email, chat, meetings, and documents
+  to build a real-time model of how a business operates, then automates recurring
+  processes such as deal flow, deal-prep briefs, and inbox switchboards. Seed-stage,
+  based in San Francisco. This profile documents Thorin's product and documentation
+  surface; no public developer API is published as of this enrichment pass.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://raw.githubusercontent.com/ThorinHQ/docs/HEAD/logo/dark.svg
 url: https://raw.githubusercontent.com/api-evangelist/thorin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Workflow Automation
+- Applied AI
+- Enterprise Software
+- Productivity
+- Model Context Protocol
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,26 @@ maintainers:
 common:
 - type: Website
   url: https://thorin.com
+- type: Login
+  name: Thorin App
+  url: https://app.thorin.com
+- type: Documentation
+  name: Thorin Docs
+  url: https://github.com/ThorinHQ/docs
+- type: GettingStarted
+  name: User Quickstart
+  url: https://github.com/ThorinHQ/docs/blob/main/getting-started/user-quickstart.mdx
+- type: ChangeLog
+  name: Product Changelog
+  url: https://github.com/ThorinHQ/docs/blob/main/changelog/overview.mdx
+- type: Roadmap
+  name: Product Roadmap
+  url: https://github.com/ThorinHQ/docs/blob/main/product/roadmap.mdx
+- type: GitHubOrganization
+  name: ThorinHQ
+  url: https://github.com/ThorinHQ
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
