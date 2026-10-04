@@ -47,7 +47,7 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Applied AI
 - Enterprise Software
 - Productivity
@@ -61,6 +61,7 @@ tags_raw:
 - Enterprise Software
 - Productivity
 - Model Context Protocol
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
